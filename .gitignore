@@ -1,0 +1,12 @@
+# Runtime artifacts — never commit
+runs/
+logs/
+*.mp4
+*.wav
+*.mp3
+*.thumb.jpg
+.env
+tg_token.txt
+yt_config.json
+__pycache__/
+*.pyc
