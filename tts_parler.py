@@ -23,7 +23,13 @@ def main():
     desc_tok = AutoTokenizer.from_pretrained(model.config.text_encoder._name_or_path)
 
     # Hindi description steers a calm, clear devotional narration voice.
-    description = "Rohit speaks in a calm, clear and natural Hindi voice with a warm devotional narration tone."
+    # Speaker is selectable via $PARLER_SPEAKER (Rohit | Divya | Aman | Rani);
+    # defaults to Divya (clear female devotional tone).
+    speaker = os.environ.get("PARLER_SPEAKER", "Rani")
+    description = (
+        f"{speaker} speaks in a calm, clear and natural Hindi voice "
+        "with a warm devotional narration tone."
+    )
 
     input_ids = desc_tok(description, return_tensors="pt").input_ids.to(DEVICE)
     prompt = tokenizer(text, return_tensors="pt").input_ids.to(DEVICE)
