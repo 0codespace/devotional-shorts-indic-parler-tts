@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2026-01-23",
+    "name": "Vasant Panchami / Saraswati Puja",
+    "category": "saraswati",
+    "priority": 85,
+    "lead_days": 10,
+    "topics": ["सरस्वती पूजा की वसंत पंचमी कथा", "वसंत पंचमी और देवी सरस्वती पूजा की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-02-15",
+    "name": "Maha Shivratri",
+    "category": "shiva",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["शिवरात्रि व्रत मनाने के पीछे की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-03-04",
+    "name": "Holi",
+    "category": "krishna",
+    "priority": 80,
+    "lead_days": 7,
+    "topics": [],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-03-26",
+    "name": "Ram Navami",
+    "category": "rama",
+    "priority": 95,
+    "lead_days": 12,
+    "topics": [],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-04-02",
+    "name": "Hanuman Jayanti",
+    "category": "hanuman",
+    "priority": 95,
+    "lead_days": 12,
+    "topics": [],
+    "source_note": "India Hindu calendar listings; regional variation is common."
+  },
+  {
+    "date": "2026-09-04",
+    "name": "Krishna Janmashtami",
+    "category": "krishna",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["कृष्ण जन्माष्टमी की पावन कथा", "कृष्ण जन्माष्टमी और जन्म की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-09-14",
+    "name": "Ganesh Chaturthi",
+    "category": "ganesha",
+    "priority": 100,
+    "lead_days": 21,
+    "topics": ["गणेश चतुर्थी मनाने के पीछे की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-10-11",
+    "name": "Sharad Navratri begins",
+    "category": "durga",
+    "priority": 95,
+    "lead_days": 14,
+    "topics": ["नवरात्रि और देवी दुर्गा के नौ रूप", "नवरात्रि में कन्या पूजन का महत्व"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Dussehra / Vijayadashami",
+    "category": "rama",
+    "priority": 95,
+    "lead_days": 10,
+    "topics": [],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-11-06",
+    "name": "Dhanteras",
+    "category": "lakshmi",
+    "priority": 90,
+    "lead_days": 7,
+    "topics": ["धनतेरस पर लक्ष्मी पूजा की कथा", "धनतेरस पर लक्ष्मी पूजा का महत्व"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Diwali / Lakshmi Puja",
+    "category": "lakshmi",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["लक्ष्मी पूजा और दीपावली की कथा", "दीपावली और भगवान राम की अयोध्या वापसी"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-03-06",
+    "name": "Maha Shivratri",
+    "category": "shiva",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["शिवरात्रि व्रत मनाने के पीछे की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-08-25",
+    "name": "Krishna Janmashtami",
+    "category": "krishna",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["कृष्ण जन्माष्टमी की पावन कथा", "कृष्ण जन्माष्टमी और जन्म की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-09-04",
+    "name": "Ganesh Chaturthi",
+    "category": "ganesha",
+    "priority": 100,
+    "lead_days": 21,
+    "topics": ["गणेश चतुर्थी मनाने के पीछे की कथा"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-09-30",
+    "name": "Sharad Navratri begins",
+    "category": "durga",
+    "priority": 95,
+    "lead_days": 14,
+    "topics": ["नवरात्रि और देवी दुर्गा के नौ रूप", "नवरात्रि में कन्या पूजन का महत्व"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-10-09",
+    "name": "Dussehra / Vijayadashami",
+    "category": "rama",
+    "priority": 95,
+    "lead_days": 10,
+    "topics": [],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  },
+  {
+    "date": "2027-10-29",
+    "name": "Diwali / Lakshmi Puja",
+    "category": "lakshmi",
+    "priority": 100,
+    "lead_days": 14,
+    "topics": ["लक्ष्मी पूजा और दीपावली की कथा", "दीपावली और भगवान राम की अयोध्या वापसी"],
+    "source_note": "India Hindu calendar listings; date can vary by region."
+  }
+]

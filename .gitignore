@@ -8,5 +8,9 @@ logs/
 .env
 tg_token.txt
 yt_config.json
+uploads.jsonl
+topic_state.json
+.publish.lock
+.tts_health.lock
 __pycache__/
 *.pyc
