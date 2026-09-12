@@ -128,9 +128,11 @@ priority_topic_names = []
 if festival_pick:
     forced = festival_pick["category"]
     priority_topic_names = festival_pick.get("priority_topics", [])
-    if forced != scheduled_forced:
-        ev = festival_pick["event"]
-        notify_rollover(scheduled_forced, f"{forced} ({ev['name']} {ev['date']})", len(fresh_grounded(forced)))
+    # A festival override is intentional prioritization, not exhaustion. Do not
+    # call notify_rollover() here: that alert says the scheduled category is
+    # exhausted, which was false whenever Hanuman still had fresh topics.
+    # Exhaustion rollover notifications remain below, only after a real empty
+    # fresh pool check.
 
 pool = [t for t in by_cat.get(forced, []) if t.get("topic") in grounded]
 fresh_forced = fresh_grounded(forced)

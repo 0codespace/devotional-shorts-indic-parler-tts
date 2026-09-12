@@ -14,3 +14,14 @@ topic_state.json
 .tts_health.lock
 __pycache__/
 *.pyc
+
+# Local rollback copies kept outside version control
+*.bak
+*.bak.*
+*.bak_*
+*.disabled.bak
+
+# Generated/downloaded image caches; keep only small curated fallback images
+/images/ai/
+/images/curated/
+/images/topic/

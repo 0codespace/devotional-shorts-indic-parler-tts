@@ -1,0 +1,442 @@
+{
+  "archived_at": "2026-09-02",
+  "reason": "published topics removed from active pool; uploads.jsonl retained as permanent deduplication history",
+  "topics": [
+    {
+      "topic": "भगवान गणेश को हाथी का सिर कैसे मिला",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी और चंद्रमा के श्राप की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी का वाहन मूषक क्यों है",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी द्वारा महाभारत लिखने की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी की एक दांत टूटने की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "ॐ प्रतीक का आध्यात्मिक महत्व",
+      "category": "shiva"
+    },
+    {
+      "topic": "बाल हनुमान द्वारा सूर्य को निगलने की कथा",
+      "category": "hanuman"
+    },
+    {
+      "topic": "हनुमान चालीसा के महत्व की कथा",
+      "category": "hanuman"
+    },
+    {
+      "topic": "हनुमान जी की अष्ट सिद्धियों की कथा",
+      "category": "hanuman"
+    },
+    {
+      "topic": "हनुमान जी द्वारा लंका दहन की कथा",
+      "category": "hanuman"
+    },
+    {
+      "topic": "हनुमान जी को बजरंगबली क्यों कहा जाता है",
+      "category": "hanuman"
+    },
+    {
+      "topic": "ॐ नमः शिवाय मंत्र का अर्थ",
+      "category": "shiva"
+    },
+    {
+      "topic": "महाभारत में कर्ण के दान की कथा",
+      "category": "krishna"
+    },
+    {
+      "topic": "आत्मा और शाश्वत जीवन का अर्थ",
+      "category": "shiva"
+    },
+    {
+      "topic": "मार्कण्डेय की शिव भक्ति की कथा",
+      "category": "shiva"
+    },
+    {
+      "topic": "गंगा नदी को पवित्र क्यों माना जाता है",
+      "category": "shiva"
+    },
+    {
+      "topic": "भगवान राम के वनवास और वापसी की कथा",
+      "category": "rama"
+    },
+    {
+      "topic": "आध्यात्मिक जीवन में मौन और ध्यान का महत्व",
+      "category": "saraswati"
+    },
+    {
+      "topic": "हनुमान जन्मोत्सव मनाने के पीछे की कथा",
+      "category": "hanuman"
+    },
+    {
+      "topic": "गणेश जी और परशुराम युद्ध की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी द्वारा सृष्टि की परिक्रमा की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "गणेश जी और कुबेर के घमंड की कथा",
+      "category": "ganesha"
+    },
+    {
+      "topic": "शिव-पार्वती के विवाह की कथा",
+      "category": "shiva"
+    },
+    {
+      "topic": "समुद्र मंथन और शिव द्वारा विष पीने की कथा",
+      "category": "shiva"
+    },
+    {
+      "topic": "माता सती के आत्मदाह और शिव के वियोग की कथा",
+      "category": "shiva"
+    },
+    {
+      "topic": "रावण की शिव भक्ति और आत्मलिंग की कथा",
+      "category": "shiva"
+    }
+  ],
+  "upload_records": [
+    {
+      "id": "O-qOpweygSs",
+      "topic": "आत्मा और शाश्वत जीवन का अर्थ",
+      "title": "आत्मा का मार्ग #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787629545.1654484,
+      "privacy": "public",
+      "publish_at": "2026-08-25T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "y0_Zv3M6-wk",
+      "topic": "आध्यात्मिक जीवन में मौन और ध्यान का महत्व",
+      "title": "भगवान शिव की मौनता #Shorts",
+      "category": "saraswati",
+      "uploaded_at": 1787651144.5901325,
+      "privacy": "public",
+      "publish_at": "2026-08-25T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "nKzDW3x8J6I",
+      "topic": "भगवान शिव",
+      "title": "शिव की कृपा | Hindi Devotional Short (Indic Parler-TTS test) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787666409.622469,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "7Ww_IZW0snc",
+      "topic": "भगवान शिव (Divya voice test)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Indic Parler-TTS - Divya voice) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787667082.5666137,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "rFlpBIVqs8k",
+      "topic": "भगवान शिव (Aman voice test)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Indic Parler-TTS - Aman voice) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787667714.4093463,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "Os0y-s2spMk",
+      "topic": "भगवान शिव (Rani voice test)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Indic Parler-TTS - Rani voice) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787667718.4389348,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "aveHycl8TRI",
+      "topic": "भगवान शिव (slideshow test)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Rani voice + AI slideshow) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787670213.4304197,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "vtdkVR88GTY",
+      "topic": "भगवान शिव (curated art test)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Rani + curated art slideshow) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787671019.462946,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "6wjv0YFGfvw",
+      "topic": "भगवान शिव (your zip art)",
+      "title": "शिव की कृपा | Hindi Devotional Short (Rani + your curated images) #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787674750.293384,
+      "privacy": "private",
+      "publish_at": "",
+      "status": "uploaded"
+    },
+    {
+      "id": "xtNCePmJFWk",
+      "topic": "भगवान गणेश को हाथी का सिर कैसे मिला",
+      "title": "भगवान गणेश का हाथी सिर | #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1787676636.5291083,
+      "privacy": "public",
+      "publish_at": "2026-08-26T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "gF9JX2z3sD8",
+      "topic": "गणेश जी की एक दांत टूटने की कथा",
+      "title": "गणेश जी की दाँत टूटने की कहानी #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1787764704.7182333,
+      "privacy": "public",
+      "publish_at": "2026-08-27T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "iEVKsme9b5Q",
+      "topic": "भगवान राम के वनवास और वापसी की कथा",
+      "title": "भगवान राम का वनवास #Shorts",
+      "category": "rama",
+      "uploaded_at": 1787798757.7683477,
+      "privacy": "public",
+      "publish_at": "2026-08-27T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "U0h6ivaJkMM",
+      "topic": "महाभारत में कर्ण के दान की कथा",
+      "title": "कर्ण का दान – महाभारत की कहानी #Shorts",
+      "category": "krishna",
+      "uploaded_at": 1787820336.3127918,
+      "privacy": "public",
+      "publish_at": "2026-08-27T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "YatqbFcAN8I",
+      "topic": "ॐ नमः शिवाय मंत्र का अर्थ",
+      "title": "ॐ नमः शिवाय मंत्र का गहरा अर्थ #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1787841959.6393578,
+      "privacy": "public",
+      "publish_at": "2026-08-28T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "jXVQ3XLtdRg",
+      "topic": "गणेश जी का वाहन मूषक क्यों है",
+      "title": "गणेश जी का वाहन क्यों महत्वपूर्ण है #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1787863538.897925,
+      "privacy": "public",
+      "publish_at": "2026-08-28T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "NIgVoVg0l-g",
+      "topic": "हनुमान जी को बजरंगबली क्यों कहा जाता है",
+      "title": "हनुमान जी को बजरंगबली क्यों कहा जाता है #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1787885138.0309854,
+      "privacy": "public",
+      "publish_at": "2026-08-28T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "UIKoS5M_AQk",
+      "topic": "बाल हनुमान द्वारा सूर्य को निगलने की कथा",
+      "title": "बाल हनुमान सूर्य को निगलकर प्रेम का प्रतीक बने #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1787892159.6664054,
+      "privacy": "public",
+      "publish_at": "2026-08-28T06:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "OY1GVMFbWdw",
+      "topic": "हनुमान जी की अष्ट सिद्धियों की कथा",
+      "title": "हनुमान जी की अष्ट सिद्धियाँ | दिव्य शक्तियों की कथा #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1787907328.4618196,
+      "privacy": "public",
+      "publish_at": "2026-08-28T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "BCg6DMhvn1U",
+      "topic": "हनुमान चालीसा के महत्व की कथा",
+      "title": "हनुमान चालीसा का अद्भुत महत्व 🌺 #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1787929052.9339335,
+      "privacy": "public",
+      "publish_at": "2026-08-28T16:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "NE7P0zrdbQI",
+      "topic": "हनुमान जी द्वारा लंका दहन की कथा",
+      "title": "हनुमान जी का लंका दहन | अद्भुत शक्ति #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1787971947.8940194,
+      "privacy": "public",
+      "publish_at": "2026-08-29T06:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "tFtiRpv3iDw",
+      "topic": "हनुमान जन्मोत्सव मनाने के पीछे की कथा",
+      "title": "हनुमान जन्मोत्सव की पावन कथा | #Shorts",
+      "category": "hanuman",
+      "uploaded_at": 1788036853.8441432,
+      "privacy": "public",
+      "publish_at": "2026-08-30T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "sYrLWSpw0wk",
+      "topic": "समुद्र मंथन और शिव द्वारा विष पीने की कथा",
+      "title": "समुद्र मंथन और भगवान शिव का विष पान | हर हर महादेव #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788058627.239236,
+      "privacy": "public",
+      "publish_at": "2026-08-30T06:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "iTyYrfGwwlY",
+      "topic": "ॐ प्रतीक का आध्यात्मिक महत्व",
+      "title": "ॐ का रहस्य: जानिए इस प्रतीक का आध्यात्मिक महत्व #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788095370.6150918,
+      "privacy": "public",
+      "publish_at": "2026-08-30T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "8atEXa6n0TA",
+      "topic": "गंगा नदी को पवित्र क्यों माना जाता है",
+      "title": "भगीरथ की तपस्या और गंगा का पृथ्वी पर आगमन #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788123476.8974564,
+      "privacy": "public",
+      "publish_at": "2026-08-31T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "mujIe30jwMc",
+      "topic": "रावण की शिव भक्ति और आत्मलिंग की कथा",
+      "title": "आत्मलिंग की कथा — रावण की अधीरता #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788145045.9760547,
+      "privacy": "public",
+      "publish_at": "2026-08-31T06:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "9T9N2YzunFA",
+      "topic": "शिव-पार्वती के विवाह की कथा",
+      "title": "जब पार्वती ने शिव को पाने के लिए खुद को आग लगा दी! 🔥 #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788166658.7359648,
+      "privacy": "public",
+      "publish_at": "2026-08-31T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "gUAC0QZxwt8",
+      "topic": "माता सती के आत्मदाह और शिव के वियोग की कथा",
+      "title": "जब पिता ने शिव का अपमान किया, सती ने देह त्याग दी! #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788188274.4981258,
+      "privacy": "public",
+      "publish_at": "2026-08-31T16:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "gFo5qtMqsyw",
+      "topic": "मार्कण्डेय की शिव भक्ति की कथा",
+      "title": "मार्कण्डेय की अमर भक्ति #Shorts",
+      "category": "shiva",
+      "uploaded_at": 1788210044.2452977,
+      "privacy": "public",
+      "publish_at": "2026-09-01T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "JMhKm9HQhyU",
+      "topic": "गणेश जी और परशुराम युद्ध की कथा",
+      "title": "गणेश जी ने क्यों तोड़ा अपना दाँत? #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1788231368.6328595,
+      "privacy": "public",
+      "publish_at": "2026-09-01T06:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "ydATzWZg2fE",
+      "topic": "गणेश जी और कुबेर के घमंड की कथा",
+      "title": "कुबेर का अभिमान और गणेश की भूख #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1788253083.148911,
+      "privacy": "public",
+      "publish_at": "2026-09-01T13:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "npGUq-xCNbg",
+      "topic": "गणेश जी द्वारा महाभारत लिखने की कथा",
+      "title": "गणेश जी ने तोड़ा अपना दाँत, महाभारत लिखने के लिए! #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1788274660.494288,
+      "privacy": "public",
+      "publish_at": "2026-09-01T16:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "OVppeWVU9Ns",
+      "topic": "गणेश जी और चंद्रमा के श्राप की कथा",
+      "title": "मोदकों से भरा उदर, और अभिमानी चाँद की सज़ा! 🌕 #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1788296168.985645,
+      "privacy": "public",
+      "publish_at": "2026-09-02T02:30:00Z",
+      "status": "uploaded"
+    },
+    {
+      "id": "8rvreZ_YszY",
+      "topic": "गणेश जी द्वारा सृष्टि की परिक्रमा की कथा",
+      "title": "जब गणेश ने दौड़ ही नहीं लगाई, फिर भी जीत गए! #Shorts",
+      "category": "ganesha",
+      "uploaded_at": 1788317813.4094942,
+      "privacy": "public",
+      "publish_at": "2026-09-02T06:30:00Z",
+      "status": "uploaded"
+    }
+  ]
+}
