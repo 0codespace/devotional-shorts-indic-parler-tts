@@ -15,6 +15,7 @@ import urllib.request
 BASE = os.path.expanduser("~/devotional-shorts")
 CONFIG_PATH = os.path.join(BASE, "yt_config.json")
 LOG_PATH = os.path.join(BASE, "uploads.jsonl")
+QUEUE_PATH = os.path.join(BASE, "upload_queue.jsonl")
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 UPLOAD_URL = "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status"
 
@@ -168,6 +169,11 @@ def log_upload(entry):
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
+def log_queue(entry):
+    with open(QUEUE_PATH, "a") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
 def already_uploaded(topic, title):
     if not os.path.exists(LOG_PATH):
         return False
@@ -217,6 +223,7 @@ if __name__ == "__main__":
     tags = build_tags(script.get("hashtags", ""), category, topic)
 
     try:
+        log_queue({"status": "pending", "video_path": os.path.abspath(video_path), "script_path": os.path.abspath(script_json_path), "topic": topic, "title": title, "privacy": privacy, "publish_at": publish_at, "queued_at": time.time()})
         token = get_access_token(cfg)
         result = upload_video(video_path, title, description, tags, token, privacy, publish_at)
         vid = result.get("id", "unknown")
@@ -229,9 +236,11 @@ if __name__ == "__main__":
             "uploaded_at": time.time(), "privacy": privacy,
             "publish_at": publish_at, "status": "uploaded",
         })
+        log_queue({"status": "uploaded", "video_path": os.path.abspath(video_path), "video_id": vid, "topic": topic, "title": title, "completed_at": time.time()})
         print(json.dumps(result, ensure_ascii=False))
     except Exception as e:
         # Keep the video file; record failure so n8n can alert and we can retry
         log_upload({"topic": topic, "title": title, "uploaded_at": time.time(),
                     "status": "failed", "error": str(e)})
+        log_queue({"status": "failed", "video_path": os.path.abspath(video_path), "script_path": os.path.abspath(script_json_path), "topic": topic, "title": title, "privacy": privacy, "publish_at": publish_at, "error": str(e), "failed_at": time.time()})
         raise SystemExit(f"Upload failed (video kept at {video_path}): {e}")

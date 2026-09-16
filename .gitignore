@@ -9,6 +9,7 @@ logs/
 tg_token.txt
 yt_config.json
 uploads.jsonl
+upload_queue.jsonl
 topic_state.json
 .publish.lock
 .tts_health.lock

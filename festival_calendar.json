@@ -55,12 +55,30 @@
   },
   {
     "date": "2026-09-14",
-    "name": "Ganesh Chaturthi",
+    "name": "Ganesh Chaturthi / Ganesh Festival Week",
     "category": "ganesha",
     "priority": 100,
     "lead_days": 21,
-    "topics": ["गणेश चतुर्थी मनाने के पीछे की कथा"],
-    "source_note": "India Hindu calendar listings; date can vary by region."
+    "post_days": 7,
+    "topics": [
+      "गणेश चतुर्थी मनाने के पीछे की कथा",
+      "गणेश जी को दूर्वा घास क्यों चढ़ाई जाती है",
+      "गणेश जी को एकदंत नाम कैसे मिला",
+      "गणेश जी और परशुराम का संवाद",
+      "गणेश जी के मोदक का महत्व",
+      "गणेश जी का मूषक वाहन कैसे बना",
+      "गणेश जी और कार्तिकेय की परीक्षा",
+      "गणेश जी और चंद्रमा के श्राप की कथा",
+      "गणेश जी की प्रथम पूजा का रहस्य",
+      "गणेश जी ने महाभारत लिखने की कथा",
+      "गणेश जी की लाल फूल पूजा का महत्व",
+      "गणेश जी ने कुबेर का घमंड कैसे तोड़ा",
+      "गणेश विसर्जन की परंपरा",
+      "गणेश जी को विघ्नहर्ता क्यों कहते हैं",
+      "गणेश जी और शुभ आरंभ की कथा",
+      "गणेश जी और सिंदूर अर्पण की परंपरा"
+    ],
+    "source_note": "India Hindu calendar listings; festival-week promotion uses post_days 7 and prioritizes grounded Ganesh topics."
   },
   {
     "date": "2026-10-11",

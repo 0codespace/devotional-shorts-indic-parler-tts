@@ -31,6 +31,19 @@ DRYRUN=${1:-""}
 
 mkdir -p runs logs
 
+# Validate YouTube OAuth before consuming a topic or starting expensive TTS/rendering.
+OAUTH_PREFLIGHT=$(python3 youtube_oauth_preflight.py 2>/dev/null)
+OAUTH_RC=$?
+if [ "$OAUTH_RC" != "0" ]; then
+  RUN_ID=$(date +%s)
+  RESULT_JSON="runs/result_${RUN_ID}.json"
+  python3 -c "import json;json.dump(json.loads(__import__('sys').argv[1]) | {'run_id': __import__('sys').argv[2]}, open(__import__('sys').argv[3],'w'), ensure_ascii=False)" "$OAUTH_PREFLIGHT" "$RUN_ID" "$RESULT_JSON"
+  echo "N8N_RESULT $(cat \"$RESULT_JSON\")"
+  exit 0
+fi
+
+echo "YouTube OAuth preflight passed: $OAUTH_PREFLIGHT"
+
 LOCKFILE="/tmp/youtube-shorts-publish.lock"
 exec 200>"$LOCKFILE"
 flock 200
